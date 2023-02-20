@@ -62,7 +62,7 @@ export default function Home() {
             Ruso alcalde
           </h1>
           <p className={inter.className}>Bienvenido a la pagina oficial de apoyo ciudadano para impulsar mi candidatura a la Alcaldia de esta hermosa ciduad <strong>Tunja</strong>.
-            Mi nombre es Mikail Krasnov, Ciudadano Colombiano, Tunjano, nacido en Sarátov Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
+            Mi nombre es Mikail Krasnov conocido cariñosamente como "El ruso", Ciudadano Colombiano, Tunjano, nacido en Sarátov Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
             Inscríbite como voluntario <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-            ¡Únete a nosotros como voluntario para apoyar la candidatura a la alcaldía de Tunja de Mikail Krasnov por el Movimiento Innovación Ciudadana, más conocido como "El Ruso"! Ayuda a marcar la diferencia en nuestra comunidad y a construir un futuro mejor para todos. ¡Tu ayuda es valiosa y necesaria! #MikailParaTunja #VoluntariosPorElCambio
+            ¡Únete como voluntario a nuestro Movimiento Innovación Ciudadana. Ayuda a marcar la diferencia en nuestra comunidad y a construir un futuro mejor para todos. ¡Tu ayuda es valiosa y necesaria! #MikailParaTunja #VoluntariosPorElCambio
             </p>
           </a>
 
