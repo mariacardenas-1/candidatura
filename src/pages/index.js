@@ -16,59 +16,46 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          {/* <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p> */}
           <div>
-            {/* <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            <a
+              href="https://wa.link/56ld8t"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
+                src="/WhatsApp.svg"
+                alt="WhatsApp"
                 width={100}
                 height={24}
                 priority
               />
-              Maria Fernanda Cardenas
-            </a> */}
+              Hablemos por whatsApp
+            </a>
           </div>
         </div>
 
+
         <div className={styles.center}>
-          {/* <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
             <Image
-              src="/thirteen.svg"
+              src="/ruso.jpeg"
               alt="13"
-              width={40}
-              height={31}
+              width={400}
+              height={280}
               priority
             />
-          </div> */}
-          <h1 className={inter.className}>
-            Ruso alcalde
-          </h1>
-          <p className={inter.className}>Bienvenido a la pagina oficial de apoyo ciudadano para impulsar mi candidatura a la Alcaldia de esta hermosa ciduad <strong>Tunja</strong>.
-            Mi nombre es Mikail Krasnov conocido cariñosamente como "El ruso", Ciudadano Colombiano, Tunjano, nacido en Sarátov Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
-          </p>
         </div>
-
+        <div className= {styles.header}>
+            <h1 className={inter.className}>
+              Ruso alcalde
+            </h1>
+            <p className={inter.className}>Bienvenido a la pagina oficial de apoyo ciudadano para impulsar mi candidatura a la Alcaldia de esta hermosa ciduad <strong>Tunja</strong>.
+              Mi nombre es <strong>Mikhail Krasnov </strong> conocido cariñosamente como "El ruso", Ciudadano Colombiano, Tunjano, nacido en Sarátov Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
+            </p>
+        </div>
+          
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -82,47 +69,46 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Contactame <span>-&gt;</span>
+              Apoyanos con tu firma <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Siempre estoy disponible y dispuesto a escuchar, hablemos, contactame por mis redes sociales o por whatsApp 
+              Nuestro movimiento es un moviento independiente, por eso necesitamos tu firma para hacer realidad nuestra candidatura.   
             </p>
           </a>
 
-          {/* <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <a
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Ruso Alcalde en redes sociales <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Sigue todas nuestras novedades, eventos y noticias en mis redes Facebook e Instagram
             </p>
-          </a> */}
+          </a>
 
-          {/* <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <a
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Lo que dicen los medios. <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Varios medios han notado nuestro liderazgo...
             </p>
-          </a> */}
+          </a>
         </div>
       </main>
     </>
