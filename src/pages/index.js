@@ -59,7 +59,7 @@ export default function Home() {
             </p>
         </div>
           
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="#"
             className={styles.card}
@@ -115,7 +115,7 @@ export default function Home() {
               Varios medios han notado nuestro liderazgo...
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   )
