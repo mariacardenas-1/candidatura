@@ -1,0 +1,29 @@
+.button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #c35725;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.button img {
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #9f461d;
+
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        width: auto;
+    }
+}

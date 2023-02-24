@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './index.module.css'
+import HeroText from '@/components/HeroText/HeroText'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,10 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
       </Head>
-      <main className={styles.main}>
         <div className={styles.hero}>
           <div className={styles.description}>
             <div>
@@ -40,6 +40,7 @@ export default function Home() {
 
 
           <div  className={styles.imageProfile}>
+              <HeroText isDesktop/>
               <Image
                 className={styles.photo}
                 src="/ruso.jpeg"
@@ -50,15 +51,7 @@ export default function Home() {
               />
           </div>
         </div>  
-        <div className= {styles.header}>
-            <h1 className={styles.title}>
-              Ruso alcalde
-            </h1>
-            <p className={styles.text}>Bienvenido a la pagina oficial de apoyo ciudadano para impulsar mi candidatura a la Alcaldia de esta hermosa ciduad <strong>Tunja</strong>.
-              Mi nombre es <strong>Mikhail Krasnov </strong> conocido cariñosamente como <stron>el ruso</stron>, Ciudadano Colombiano, Tunjano, nacido en Sarátov Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
-            </p>
-        </div>
-          
+        <HeroText />          
         {/* <div className={styles.grid}>
           <a
             href="#"
@@ -116,7 +109,6 @@ export default function Home() {
             </p>
           </a>
         </div> */}
-      </main>
     </>
   )
 }

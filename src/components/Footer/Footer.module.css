@@ -1,0 +1,18 @@
+.prueba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    min-height: 60px;
+    color: #686868;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .prueba{
+        flex-direction: row;
+        justify-content: end;
+    }
+}

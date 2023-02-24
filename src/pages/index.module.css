@@ -4,9 +4,10 @@
 }
 
 .hero {
-    background-color: #f5e1d9;
+    background-color: #faefea;
     padding: 15px;
     margin: 0 -2rem;
+    
 }
 
 .description {
@@ -17,6 +18,7 @@
 }
 
 .photo {
+    margin-bottom: -100px;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -24,17 +26,22 @@
 }
 
 .imageProfile{
-    display: grid;
+    display: flex;
     justify-content: center;
     margin: 10px;
 }
 
+.card {
+    background-color: #faefea;
+}
+
 .title {
+    margin-top: 70px;
     font-weight: bold;
     font-size: 40px;
     font-family: Roboto;
     line-height: 30px;
-    padding: 15px 0 30px 0;
+    padding: 15px 0 20px 0;
     /* color:#913a15; */
     color: #c35725;
 }
@@ -49,31 +56,38 @@
 
 .text {
     font-family: Roboto;
-    color: #4a4a4a;
+    color: #686868;
     font-size: 1.5rem;
+    padding: 10px 20px;
 }
 
-@media screen and (min-width: 460px) {
+.text:hover {
+    border: solid 1px rgb(190, 190, 190);
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
     .photo {
-        width: 180px;
-        height: 280px;
+        width: 300px;
+        height: 460px;
         object-fit: cover;
         border-radius: 40px 0;
         justify-self: flex-end;
+    }
+
+    .hero {
+        min-height: 400px;
+        margin: 0 -4rem;
     }
 
     .imageProfile{
-        display: grid;
-        justify-content: flex-end;
+        justify-content: space-between;
     }
 }
 
-@media screen and (min-width: 760px) {
-    .photo {
-        width: 280px;
-        height: 400px;
-        object-fit: cover;
-        border-radius: 40px 0;
-        justify-self: flex-end;
+@media screen and (min-width: 1440px) {
+    .imageProfile {
+        padding: 0 8rem;
     }
 }
+

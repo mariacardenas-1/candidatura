@@ -1,0 +1,53 @@
+.title {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: Roboto;
+    line-height: 30px;
+    padding: 20px 0 20px 0;
+    color: #383838;
+    text-align: center;
+}
+.text {
+    font-family: Roboto;
+    color: #686868;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.heroDesktop {
+    display: none;
+   
+}
+.heroMobile {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .heroDesktop {
+        display: block;
+        max-width: 50%;
+    }
+    .heroMobile {
+        display: none;
+    }
+    .title {
+        text-align: start;
+        font-size: 5rem;
+    }
+    .text {
+        padding: 10px 0;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title {
+        text-align: start;
+        font-size: 5rem;
+    }
+    .text {
+        padding: 10px 0;
+        font-size: 2rem;
+    }
+}
