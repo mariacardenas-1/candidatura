@@ -1,5 +1,5 @@
 .main {
-    color: black;
+    color: 686868;
     justify-content: center;
 }
 
@@ -67,6 +67,47 @@
     border-radius: 8px;
 }
 
+.frame{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  color: #686868
+}
+
+.frame p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.responsiveIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .section{
+    color: #686868;
+    margin: 40px auto;
+    max-width: 900px;
+    font-family: Roboto;
+    color: #686868;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    line-height: 1.4;
+  }
+
+  .section h2{
+    padding-bottom: 20px;
+  }
+
+  
+
 @media screen and (min-width: 768px) {
     .photo {
         width: 300px;
@@ -84,6 +125,10 @@
     .imageProfile{
         justify-content: space-between;
     }
+
+   .section{
+    margin-top: 80px;
+   }
 }
 
 @media screen and (min-width: 1440px) {
@@ -98,5 +143,6 @@
         border-radius: 40px 0;
         justify-self: flex-end;
     }
+    
 }
 

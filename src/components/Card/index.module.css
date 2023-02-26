@@ -1,0 +1,53 @@
+.card{
+    padding: 20px;
+    background-color: #faf5f1;
+    border-radius: 20px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg{
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #64BAAA;
+}
+
+@media screen and (min-width: 768px) {
+    .cardBody{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cardImg{
+        border-radius: 12px 12px 0 0;
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #64BAAA;
+        flex: 1;
+    }
+
+    .cardText{
+        padding-left: 20px;
+        flex: 1;
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (min-width: 768px) {
+
+    .cardText{
+        font-size: 2rem;
+    }
+
+    .cardImg{
+        height: 100%;
+        object-fit: cover;
+    }
+}

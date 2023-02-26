@@ -2,6 +2,7 @@ import Button from '../Button/Button'
 import styles from './HeroText.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import icon from '../../../public/whatsappIcon.png'
 
 
 export default function HeroText({isDesktop}) {
@@ -46,7 +47,11 @@ export default function HeroText({isDesktop}) {
                  </Link>
             </div>
 
-            <Button />
+            <Button 
+              link='https://wa.link/56ld8t' 
+              cta='Contactame' 
+              iconButton={icon}
+            />
         </div>
     )
   }
