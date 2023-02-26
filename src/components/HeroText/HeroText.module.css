@@ -12,7 +12,8 @@
     font-family: Roboto;
     color: #686868;
     font-size: 1.5rem;
-    padding: 10px 20px;
+    padding: 20px 0;
+    line-height: 1.4;
 }
 
 .heroDesktop {
@@ -21,6 +22,16 @@
 }
 .heroMobile {
     display: block;
+}
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    color: #686868;
+}
+
+.iconBox img{
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,7 +47,6 @@
         font-size: 5rem;
     }
     .text {
-        padding: 10px 0;
         font-size: 1.6rem;
     }
 }
@@ -47,7 +57,6 @@
         font-size: 5rem;
     }
     .text {
-        padding: 10px 0;
         font-size: 2rem;
     }
 }
