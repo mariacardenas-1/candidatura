@@ -12,7 +12,7 @@ export default function HeroText({isDesktop}) {
               Ruso alcalde
             </h1>
             <p className={styles.text}>Bienvenido a la página oficial de apoyo ciudadano para impulsar mi candidatura a la alcaldía de esta hermosa ciduad <strong>Tunja</strong>.
-              Mi nombre es <strong>Mikhail Krasnov </strong> conocido cariñosamente como <strong>"EL RUSO"</strong>, ciudadano colombiano, tunjano, nacido en Sarátov, Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
+              Mi nombre es <strong>Mikhail Krasnov </strong> conocido cariñosamente como <strong>EL RUSO</strong>, ciudadano colombiano, tunjano, nacido en Sarátov, Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
             </p>
             <div className={styles.iconBox}> 
             <Link href='https://www.facebook.com/profile.php?id=100089668390660&mibextid=ZbWKwL' target='_blank'>
