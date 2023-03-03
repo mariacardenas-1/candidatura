@@ -16,7 +16,7 @@ export default function Languages () {
                     <Image src={uk} width='20' height='20' alt='Ingles'/>
                 </Link>
                 <Link href="/" locale="ru">
-                    <Image src={rusia} width='20' height='20' alt='Ingles'/>
+                    <Image src={rusia} width='20' height='20' alt='Ruso'/>
                 </Link>
         </div>
     )
