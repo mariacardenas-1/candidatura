@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation';
 import Button from '../Button/Button'
 import styles from './HeroText.module.css'
 import Image from 'next/image'
@@ -6,13 +7,14 @@ import icon from '../../../public/whatsappIcon.png'
 
 
 export default function HeroText({isDesktop}) {
+  const { t } = useTranslation('common')
     return (
         <div className= {isDesktop ? styles.heroDesktop : styles.heroMobile}>
             <h1 className={styles.title}>
-              Ruso alcalde
+              {t('title')}
             </h1>
-            <p className={styles.text}>Bienvenido a la página oficial de apoyo ciudadano para impulsar mi candidatura a la alcaldía de esta hermosa ciduad <strong>Tunja</strong>.
-              Mi nombre es <strong>Mikhail Krasnov </strong> conocido cariñosamente como <strong>EL RUSO</strong>, ciudadano colombiano, tunjano, nacido en Sarátov, Rusia. Soy profesor e investigador, Magister en Sociología, Economía y Relaciones Internacionales.
+            <p className={styles.text}>{t('description')}<strong>{t('description1')}</strong>
+              {t('description2')}<strong> {t('description3')} </strong>{t('description4')}<strong>{t('description5')}</strong>{t('description6')}
             </p>
             <div className={styles.iconBox}> 
             <Link href='https://www.facebook.com/profile.php?id=100089668390660&mibextid=ZbWKwL' target='_blank'>
@@ -49,7 +51,7 @@ export default function HeroText({isDesktop}) {
 
             <Button 
               link='https://wa.link/56ld8t' 
-              cta='Contactame' 
+              cta={t('headerCta')} 
               iconButton={icon}
             />
         </div>

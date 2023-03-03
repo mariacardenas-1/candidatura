@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation';
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
@@ -9,6 +10,7 @@ import Card from '@/components/Card'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const { t } = useTranslation('common')
   return (
     <>
       <Head>
@@ -35,7 +37,7 @@ export default function Home() {
                   height={24}
                   priority
                 />
-                Contactame
+                {t('headerCta')}
               </a>
             </div>
           </div>
@@ -55,7 +57,7 @@ export default function Home() {
         </div>  
         <HeroText />   
         <section className={styles.section}>
-          <h2>Que por qué quiero ser alcalde? </h2>
+          <h2>{t('videoText')}</h2>
           {/* <p>Section description</p> */}
         <div className={styles.frame}>
           <iframe 
@@ -70,7 +72,7 @@ export default function Home() {
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
             allowFullScreen="true">
           </iframe>  
-              <p>Tomado de: <BaseLink href='https://www.facebook.com/AlternativaT.V.Tunja/' name='Alter-Nativa T.V.' / ></p>
+              <p> {t('caption')} <BaseLink href='https://www.facebook.com/AlternativaT.V.Tunja/' name='Alter-Nativa T.V.' / ></p>
         </div>
         </section>
         <section className={styles.section}>

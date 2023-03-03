@@ -1,25 +1,24 @@
-.main {
-    max-width: 1440px;
-    padding: 0 2rem;
-    margin: 0 auto;
-    flex: 1;
-}
+
 .layout {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Roboto;
     font-size: 1.5rem;
+    max-width: 1440px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    flex: 1;
 }
 
 @media screen and (min-width: 768px) {
-    .main {
+    .layout {
         padding: 0 4rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .main {
+    .layout {
         padding: 0 8rem;
     }
 }
